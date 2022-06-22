@@ -11,7 +11,9 @@ const Nav: NextPage = () => {
             <Link href="/menu1">
                 <li>Menu1</li>
             </Link>
-            <li>Menu2</li>
+            <Link href="/menu1">
+                <li>Menu2</li>
+            </Link>
             <li>Menu3</li>
         </ul>
     )
