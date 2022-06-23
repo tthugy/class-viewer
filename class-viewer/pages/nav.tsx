@@ -11,10 +11,12 @@ const Nav: NextPage = () => {
             <Link href="/menu1">
                 <li>Menu1</li>
             </Link>
-            <Link href="/menu1">
+            <Link href="/menu2">
                 <li>Menu2</li>
             </Link>
-            <li>Menu3</li>
+            <Link href="/menu3">
+                <li>Menu3</li>
+            </Link>
         </ul>
     )
   }
