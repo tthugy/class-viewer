@@ -8,6 +8,11 @@
 }
 
 .nav li {
-    padding: 1.2rem 1.4rem;
+    padding: 1rem 0;
     cursor: pointer;
+    font-size: .75rem;
+    width: 25%;
+    text-align: center;
+    background: rgb(60, 55, 171);
+    color: #fff;
 }

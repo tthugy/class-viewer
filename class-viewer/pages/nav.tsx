@@ -6,16 +6,19 @@ const Nav: NextPage = () => {
     return (
         <ul className={styles.nav}>
             <Link href="/">
-                <li>Home</li>
+                <li>홈</li>
             </Link>
             <Link href="/menu1">
-                <li>Menu1</li>
+                <li>요청</li>
             </Link>
             <Link href="/menu2">
-                <li>Menu2</li>
+                <li>근무일정</li>
             </Link>
             <Link href="/menu3">
-                <li>Menu3</li>
+                <li>출퇴근기록</li>
+            </Link>
+            <Link href="/menu4">
+                <li>휴가</li>
             </Link>
         </ul>
     )

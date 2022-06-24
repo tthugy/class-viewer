@@ -7,7 +7,7 @@ import styles from '../styles/menu1.module.css'
 const Menu1: NextPage = () => {
   return (
     <div>
-      <span className={styles.center}>Next App @Menu1</span>
+      <span className={styles.center}>요청</span>
       <Nav/>
     </div>
   )
