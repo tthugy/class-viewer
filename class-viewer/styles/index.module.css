@@ -4,3 +4,11 @@
     display: block;
     margin-top: 2rem;
   }
+
+  .infoBox {
+    width: 94%;
+    margin: 0 auto;
+    height: 72px;
+    margin-top: 20px;
+    background: rgb(19, 106, 227);
+  }

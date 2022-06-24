@@ -9,7 +9,9 @@ const Home: NextPage = () => {
   return (
     <div>
       <Header/>
-      <span className={styles.center}>홈</span>
+      <div className={styles.infoBox}>
+        
+      </div>
       <Nav/>
     </div>
   )
