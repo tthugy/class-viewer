@@ -7,3 +7,10 @@
     background: #fff;
     z-index: 99;
 }
+
+.header i {
+    position: absolute;
+    left: 12px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
