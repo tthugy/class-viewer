@@ -1,24 +1,22 @@
 import type { NextPage } from 'next'
 import Link from 'next/link'
 import styles from '../styles/header.module.css'
-import useState from 'next'
-import classNames from 'classnames';
+import useState from 'react'
 import React from 'react';
 
 const Header: NextPage = () => {
-    let cn = classNames.bind(styles);
-    const [nav, setNav] = React.useState(false);
-    const handleClick = () => setNav(true);
-    const handleClose = () => setNav(false);
+    
+    const [nav, setNav] = React.useState<boolean>(false);
+
     return (
         <div>
             <header className={styles.header}>
-                <i onClick={handleClick} className="bi bi-list"></i>
+                <i onClick={() => setNav(true)} className="bi bi-list"></i>
                 <span>MyApp</span>
             </header>
-            <div className={cn('styles.navigator_wrap')}>
+            <div className={`${styles.navigator_wrap} ${nav ? styles.open : ''}`}>
                 <div className={styles.navigation}>
-                    <span onClick={handleClose} className={styles.btnClose}>
+                    <span onClick={() => setNav(false)} className={styles.btnClose}>
                         <i className="bi bi-x"></i>
                     </span>
                 </div>
