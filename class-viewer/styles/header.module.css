@@ -10,7 +10,48 @@
 
 .header i {
     position: absolute;
-    left: 12px;
+    right: 12px;
     font-size: 1.5rem;
     cursor: pointer;
+}
+
+.navigator_wrap {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0);
+    display: block;
+    position: fixed;
+    animation: mobile_navigation_background_off-data-v-1a946d83 .3s ease-in-out forwards;
+    pointer-events: none;
+}
+
+.open {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    animation: mobile_navigation_background-data-v-1a946d83 .3s ease-in-out forwards;
+    pointer-events: all;
+}
+
+.open .navigation {
+    transform: translateX(-100%);
+}
+
+.navigation {
+    display: block;
+    position: fixed;
+    z-index: 1010;
+    top: 0;
+    right: -79.4%;
+    bottom: 0;
+    width: 79.4%;
+    background-color: #fff;
+    padding-top: 60px;
+    overflow-y: auto;
+    transition: transform .3s ease-in-out,-webkit-transform .3s ease-in-out;
 }
