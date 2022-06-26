@@ -20,7 +20,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,0);
+    background: rgba(0,0,0,0);
     display: block;
     position: fixed;
     animation: mobile_navigation_background_off-data-v-1a946d83 .3s ease-in-out forwards;
@@ -34,6 +34,7 @@
     left: 0;
     right: 0;
     bottom: 0;
+    background: rgb(0 0 0 / 40%);
     animation: mobile_navigation_background-data-v-1a946d83 .3s ease-in-out forwards;
     pointer-events: all;
 }
@@ -54,4 +55,13 @@
     padding-top: 60px;
     overflow-y: auto;
     transition: transform .3s ease-in-out,-webkit-transform .3s ease-in-out;
+}
+
+.btnClose {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.4rem;
+    font-size: 2rem;
+    cursor: pointer;
+    display: block;
 }

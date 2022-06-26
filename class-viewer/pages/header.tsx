@@ -1,12 +1,18 @@
 import type { NextPage } from 'next'
 import Link from 'next/link'
 import styles from '../styles/header.module.css'
+import useRef from 'next'
+import useEffect from 'next'
 import cn from 'classnames';
 
 const handleClick = () => {
     const navBox = document.querySelector("#navWrap");
-    const style = cn.bind(styles);
-    navBox.classList.add('open');
+    navBox.classList.add(styles.open);
+}
+
+const handleClose = () => {
+    const navBox = document.querySelector("#navWrap");
+    navBox.classList.remove(styles.open);
 }
 
 const Header: NextPage = () => {
@@ -18,7 +24,9 @@ const Header: NextPage = () => {
             </header>
             <div id="navWrap" className={styles.navigator_wrap}>
                 <div className={styles.navigation}>
-
+                    <span onClick={handleClose} className={styles.btnClose}>
+                        <i className="bi bi-x"></i>
+                    </span>
                 </div>
             </div>
         </div>
