@@ -1,22 +1,15 @@
 import type { NextPage } from 'next'
 import Link from 'next/link'
 import styles from '../styles/header.module.css'
-import useEffect from 'next'
+import useState from 'next'
 import classNames from 'classnames';
-
-let cn = classNames.bind(styles);
-
-let toggle = 0;
-
-const handleClick = () => {
-    toggle = 1;
-}
-
-const handleClose = () => {
-    toggle = 0;
-}
+import React from 'react';
 
 const Header: NextPage = () => {
+    let cn = classNames.bind(styles);
+    const [nav, setNav] = React.useState(false);
+    const handleClick = () => setNav(true);
+    const handleClose = () => setNav(false);
     return (
         <div>
             <header className={styles.header}>
