@@ -25,6 +25,7 @@
     position: fixed;
     animation: mobile_navigation_background_off-data-v-1a946d83 .3s ease-in-out forwards;
     pointer-events: none;
+    z-index: 1010;
 }
 
 .open {
