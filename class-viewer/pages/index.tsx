@@ -7,7 +7,11 @@ const Home: NextPage = () => {
   return (
     <div>
       <div className={styles.infoBox}>
-        
+        <p>출석체크</p>
+        <div className={styles.todays}>
+          <span className={styles.workday}>06.27</span>
+          <span>08:54~18:17</span>
+        </div>
       </div>
     </div>
   )
