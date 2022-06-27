@@ -7,10 +7,13 @@ const Home: NextPage = () => {
   return (
     <div>
       <div className={styles.infoBox}>
-        <p>출석체크</p>
+        <p>오늘의 근무</p>
         <div className={styles.todays}>
           <span className={styles.workday}>06.27</span>
-          <span>08:54~18:17</span>
+          <span>
+            08:54~18:17
+            <div className={styles.nofiBox}>퇴근완료</div>
+          </span>
         </div>
       </div>
     </div>

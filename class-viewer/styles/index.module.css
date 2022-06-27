@@ -11,18 +11,18 @@
     margin-top: 20px;
     background: #fff;
     border-radius: 6px;
-    padding: .6rem;
+    padding: 1rem .6rem;
     box-sizing: border-box;
   }
 
   .infoBox p {
     margin: 0;
-    font-size: .9rem;
+    font-size: 1rem;
     font-weight: 600;
   }
 
   .todays {
-    margin: 1rem 0;
+    margin: 1rem 0 .2rem;
     position: relative;
   }
 
@@ -41,4 +41,15 @@
     display: inline-block;
     position: absolute;
     left: 0;
+  }
+
+  .nofiBox {
+    display: inline-block!important;
+    font-size: .75rem!important;
+    color: rgb(22, 99, 140);
+    border: 1px solid rgb(22, 99, 140);
+    border-radius: 4px;
+    padding: .2rem .28rem;
+    text-align: center;
+    margin-left: .5rem;
   }
