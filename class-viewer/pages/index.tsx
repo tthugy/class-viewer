@@ -15,6 +15,9 @@ const Home: NextPage = () => {
             <div className={styles.nofiBox}>퇴근완료</div>
           </span>
         </div>
+        <div className={styles.workTotal}>
+          123
+        </div>
       </div>
     </div>
   )
