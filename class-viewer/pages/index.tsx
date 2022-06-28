@@ -16,7 +16,14 @@ const Home: NextPage = () => {
           </span>
         </div>
         <div className={styles.workTotal}>
-          123
+          <dl className={styles.workList}>
+            <dt>출근</dt>
+            <dd>09:00</dd>
+            <dt>퇴근</dt>
+            <dd>18:00</dd>
+            <dt>총 근무시간</dt>
+            <dd>9시간</dd>
+          </dl>
         </div>
       </div>
     </div>

@@ -59,3 +59,21 @@
     margin: .8rem 0;
     border-top: 1px solid #ddd;
   }
+
+  .workList {
+    width: 100%;
+    padding: 0 .6rem;
+  }
+
+  .workList dt {
+    width: 30%;
+    display: inline-block;
+    margin: 0;
+  }
+
+  .workList dd {
+    width: 70%;
+    display: inline-block;
+    margin: 0;
+    text-align: right;
+  }
