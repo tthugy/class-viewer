@@ -77,3 +77,13 @@
     margin: 0;
     text-align: right;
   }
+
+  .actionBtn {
+    width: 94%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    padding: 1rem 0;
+    background: #000;
+    color: #fff;
+  }
