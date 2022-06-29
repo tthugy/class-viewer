@@ -66,3 +66,8 @@
     cursor: pointer;
     display: block;
 }
+
+.logo {
+    position: absolute;
+    left: 12px;
+}
