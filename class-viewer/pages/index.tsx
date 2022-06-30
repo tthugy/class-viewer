@@ -9,13 +9,13 @@ const Home: NextPage = () => {
       <div className={styles.infoBox}>
         <p>오늘의 근무</p>
         <div className={styles.todays}>
-          <span className={styles.workday}>06.27</span>
+          <span className={styles.workday}>07.01</span>
           <span>
             08:54~18:17
             <div className={styles.nofiBox}>퇴근완료</div>
           </span>
         </div>
-        <a className={styles.actionBtn}>퇴근하기</a>
+        <a className={styles.actionBtn}>출근하기</a>
         <div className={styles.workTotal}>
           <dl className={styles.workList}>
             <dt>출근</dt>

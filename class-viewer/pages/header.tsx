@@ -12,7 +12,7 @@ const Header: NextPage = () => {
         <div>
             <header className={styles.header}>
                 <i onClick={() => setNav(true)} className="bi bi-list"></i>
-                <span className={styles.logo}>MyApp</span>
+                <span className={styles.logo}>🌼</span>
             </header>
             <div className={`${styles.navigator_wrap} ${nav ? styles.open : ''}`}>
                 <div className={styles.navigation}>
