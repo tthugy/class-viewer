@@ -15,7 +15,7 @@ const Home: NextPage = () => {
             <div className={styles.nofiBox}>퇴근완료</div>
           </span>
         </div>
-        <a className="actionBtn">퇴근하기</a>
+        <a className={styles.actionBtn}>퇴근하기</a>
         <div className={styles.workTotal}>
           <dl className={styles.workList}>
             <dt>출근</dt>

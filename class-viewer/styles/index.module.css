@@ -83,7 +83,11 @@
     margin: 0 auto;
     text-align: center;
     display: block;
-    padding: 1rem 0;
-    background: #000;
+    padding: .55rem 0;
+    border-radius: 4px;
+    margin-top: .8rem;
+    cursor: pointer;
+    background: rgb(60, 55, 171);
+    font-size: .9rem;
     color: #fff;
   }

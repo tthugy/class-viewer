@@ -21,3 +21,7 @@ ul {
   padding: 0;
   margin: 0;
 }
+
+.app_color {
+  color: rgb(60, 55, 171);
+}
