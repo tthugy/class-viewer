@@ -3,11 +3,20 @@ import Header from './header'
 import Image from 'next/image'
 import styles from '../styles/index.module.css'
 import toast, { Toaster } from 'react-hot-toast'
-import React, { useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 
 const Home: NextPage = () => {
 
-  const notify = () => toast.success('출근 신청이 완료되었습니다.');
+  const [state, setState] = useState(false);
+
+  const notify = () => {
+    if(state === false){
+      toast.success('출근 신청이 완료되었습니다.');
+      setState(true);
+    } else {
+      toast.error('이미 출근했습니다.');
+    }
+  }
 
   return (
     <div>
