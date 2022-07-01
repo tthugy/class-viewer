@@ -2,8 +2,13 @@ import type { NextPage } from 'next'
 import Header from './header'
 import Image from 'next/image'
 import styles from '../styles/index.module.css'
+import toast, { Toaster } from 'react-hot-toast'
+import React, { useEffect } from 'react'
 
 const Home: NextPage = () => {
+
+  const notify = () => toast.success('출근 신청이 완료되었습니다.');
+
   return (
     <div>
       <div className={styles.infoBox}>
@@ -15,7 +20,8 @@ const Home: NextPage = () => {
             <div className={styles.nofiBox}>퇴근완료</div>
           </span>
         </div>
-        <a className={styles.actionBtn}>출근하기</a>
+        <a onClick={notify} className={styles.actionBtn}>출근하기</a>
+        <Toaster />
         <div className={styles.workTotal}>
           <dl className={styles.workList}>
             <dt>출근</dt>
