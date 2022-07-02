@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       toast.success('출근 신청이 완료되었습니다.');
       setState(true);
     } else {
-      toast.error('이미 출근했습니다.');
+      toast.error('이미 출근 신청을 했습니다.');
     }
   }
 

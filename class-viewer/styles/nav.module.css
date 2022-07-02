@@ -9,9 +9,10 @@
 .nav li {
     padding: 1rem 0;
     cursor: pointer;
-    font-size: .75rem;
+    font-size: 1.1rem;
     width: 25%;
+    flex-basis: 25%;
     text-align: center;
-    background: rgb(60, 55, 171);
-    color: #fff;
+    /* background: rgb(60, 55, 171); */
+    color: #202020;
 }
