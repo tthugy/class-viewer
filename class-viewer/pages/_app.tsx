@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <div>
       {path === false && <Header/>}
       <Component {...pageProps} />
-      {path === false && <Header/>}
+      {path === false && <Nav/>}
     </div>
   )
 }
