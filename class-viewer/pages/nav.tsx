@@ -5,7 +5,7 @@ import styles from '../styles/nav.module.css'
 const Nav: NextPage = () => {
     return (
         <ul className={styles.nav}>
-            <Link href="/">
+            <Link href="/home">
                 <li>
                     <i className="bi bi-house-door-fill"></i>
                     <span>홈</span>
