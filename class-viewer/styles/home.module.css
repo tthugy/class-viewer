@@ -1,0 +1,93 @@
+.center {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-top: 2rem;
+  }
+
+  .infoBox {
+    width: 94%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 6px;
+    padding: 1rem .6rem;
+    box-sizing: border-box;
+  }
+
+  .infoBox p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .todays {
+    margin: 1rem 0 .2rem;
+    position: relative;
+  }
+
+  .todays span {
+    display: block;
+    margin: .2rem 0;
+    font-size: .9rem;
+    padding-left: .8rem;
+  }
+
+  .todays:before {
+    width: 4px;
+    height: 100%;
+    background: rgb(60, 55, 171);
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: 0;
+  }
+
+  .nofiBox {
+    display: inline-block!important;
+    font-size: .75rem!important;
+    color: rgb(22, 99, 140);
+    border: 1px solid rgb(22, 99, 140);
+    border-radius: 4px;
+    padding: .2rem .28rem;
+    text-align: center;
+    margin-left: .5rem;
+  }
+
+  .workTotal {
+    font-size: .9rem;
+    margin: .8rem 0;
+    border-top: 1px solid #ddd;
+  }
+
+  .workList {
+    width: 100%;
+    padding: 0 .6rem;
+  }
+
+  .workList dt {
+    width: 30%;
+    display: inline-block;
+    margin: 0;
+  }
+
+  .workList dd {
+    width: 70%;
+    display: inline-block;
+    margin: 0;
+    text-align: right;
+  }
+
+  .actionBtn {
+    width: 94%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    padding: .55rem 0;
+    border-radius: 4px;
+    margin-top: .8rem;
+    cursor: pointer;
+    background: rgb(60, 55, 171);
+    font-size: .9rem;
+    color: #fff;
+  }
