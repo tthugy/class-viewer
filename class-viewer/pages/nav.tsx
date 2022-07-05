@@ -26,7 +26,7 @@ const Nav: NextPage = () => {
             <Link href="/menu3">
                 <li>
                     <i className="bi bi-clock"></i>
-                    <span>홈</span>
+                    <span>출퇴근기록</span>
                 </li>
             </Link>
         </ul>
