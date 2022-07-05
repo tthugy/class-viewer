@@ -20,19 +20,19 @@ const Home: NextPage = () => {
   const [codeStatus, setCodeStatus] = useState(false);
   const [nameStatus, setNameStatus] = useState(false);
   
-  const comeCodeChange = (e) => {
+  const comeCodeChange = (e: { target: { value: any } }) => {
     setCodeStatus(false);
     const data = e.target.value;
     setComcode(data);
   }
 
-  const userNameChange = (e) => {
+  const userNameChange = (e: { target: { value: any } }) => {
     setNameStatus(false);
     const data = e.target.value;
     setUserName(data);
   }
 
-  const loginForm = (event) => {
+  const loginForm = (event: { preventDefault: () => void }) => {
     event.preventDefault();
 
     if((comcode === loginCode && userName === loginId)){
