@@ -71,3 +71,7 @@
     position: absolute;
     left: 12px;
 }
+
+.nList {
+    padding: 2rem 1rem;
+}

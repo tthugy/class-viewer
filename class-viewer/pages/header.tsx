@@ -19,15 +19,15 @@ const Header: NextPage = () => {
                     <span onClick={() => setNav(false)} className={styles.btnClose}>
                         <i className="bi bi-x"></i>
                     </span>
-                    <div className="">
+                    <div className={styles.nList}>
                         <i className="bi bi-chat"></i>
                         채팅
                     </div>
-                    <div className="">
+                    <div className={styles.nList}>
                         <i className="bi bi-calendar-check"></i>
                         일정관리
                     </div>
-                    <div className="">
+                    <div className={styles.nList}>
                         <i className="bi bi-clock"></i>
                         출퇴근기록
                     </div>
