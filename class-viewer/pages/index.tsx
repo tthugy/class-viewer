@@ -5,6 +5,7 @@ import styles from '../styles/index.module.css'
 import toast, { Toaster } from 'react-hot-toast'
 import React, { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
+import Link from 'next'
 
 const Home: NextPage = () => {
 
@@ -64,7 +65,8 @@ const Home: NextPage = () => {
           </div>
           <span className={styles.subMent}>
             <i className="bi bi-shield-exclamation"></i>
-            <span>로그인하세요.</span>
+            <span>로그인하세요. 회원가입
+            </span>
           </span>
           <button type="submit" className={styles.loginBtn}>
             <i className="bi bi-arrow-right"></i>
