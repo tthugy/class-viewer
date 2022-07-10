@@ -170,3 +170,7 @@
     opacity: 1!important;
   }
   
+  .signUp {
+    text-decoration: underline;
+    color: #3a5bdb;
+  }

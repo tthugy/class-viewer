@@ -65,7 +65,8 @@ const Home: NextPage = () => {
           </div>
           <span className={styles.subMent}>
             <i className="bi bi-shield-exclamation"></i>
-            <span>로그인하세요. 회원가입
+            <span>로그인하세요.
+              <span className={styles.signUp}>회원가입</span>
             </span>
           </span>
           <button type="submit" className={styles.loginBtn}>
