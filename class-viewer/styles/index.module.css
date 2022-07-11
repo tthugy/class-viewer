@@ -173,4 +173,5 @@
   .signUp {
     text-decoration: underline;
     color: #3a5bdb;
+    cursor: pointer;
   }
